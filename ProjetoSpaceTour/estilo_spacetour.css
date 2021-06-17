@@ -1,0 +1,326 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#principal {
+	position: relative;
+	max-width: 1200px;
+	margin: auto;
+	height: auto;
+
+}
+
+p {
+	font-family: arial;
+	text-align: justify;
+}
+
+.sub {
+	font-weight:bold;
+	font-family: sans-serif;
+}
+
+
+
+ul li {
+    background: #105FE8;
+    margin: 5px;
+}
+
+nav {
+	margin-bottom: 20px;
+}
+
+
+}
+/*Layout para celular*/
+
+li {
+	background-color: #105FE8;
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+}
+
+ul {
+	
+	text-align: center;
+	color: white;
+	font-family: verdana;
+}
+
+a:link, a:visited {
+    background-color: #105FE8;
+    color: black;
+    border: 2px solid #105FE8;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: lightblue;
+    color: white;
+}
+
+#container {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+#art1 {
+	position: relative;
+	width: 100%; 
+	height: auto;
+	background-color: lightgray;
+	display: block;
+	margin-bottom: 20px;
+}
+#foto {
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+#foto img {
+	width: 100%;
+}
+
+#art2 {
+	position: relative;
+	width: 100%; 
+	height: auto;
+	background-color: lightgray;
+	display: block;
+	margin-bottom: 20px;
+}
+#art2 img {
+	width: 100%;
+}
+
+#art3 {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: lightgray;
+	margin-bottom: 20px;
+}
+#art3 img {
+	width: 100%;
+}
+
+#art4 {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: lightgray;
+	margin-bottom: 20px;
+}
+#art4 img {
+	width: 100%;
+}
+
+#rodape {
+	text-align: center;
+	background-color: #105FE8;
+	clear: both;
+	height: 50px;
+}	
+#rodape p {
+	text-align: center;
+	color: #ffff;
+	padding-top: 15px;
+}
+
+/*Início do layout para tablet*/
+@media only screen and (min-width: 480px) {
+
+#principal {
+	position: relative;
+	max-width: 760px;
+	margin: auto;
+}
+
+#foto {
+	height: 350px;
+}
+#foto img {
+	height: 350px;
+}
+
+#menu ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu ul li {
+	display: inline;
+	background-color: #105FE8;
+
+}
+
+#menu {
+	background-color: #105FE8;
+}
+
+a:link, a:visited {
+    background-color: #105FE8;
+    color: black;
+    border: 2px solid #105FE8;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: lightblue;
+    color: white;
+}
+
+#foto {
+	position: relative;
+	width: 100%;
+	height: 200px;
+}
+#foto img {
+	height: 200px;
+}
+
+#container {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+#art1 {
+	position: relative;
+	width: 48.6842%; 
+	float: left;
+	background-color: lightgray;
+	display: block;
+	margin-bottom: 20px;
+
+}
+#art1 img {
+	width: 100%;
+}
+
+
+#art2 {
+	position: relative;
+	width: 48.6842%; 	 
+	float: right;
+	background-color: lightgray;
+	display: block;
+	
+}
+#art2 img {
+	width: 100%;
+}
+
+#art3 {
+	position: relative;
+	width: 48.6842%; 
+	float: left;
+	clear: left;
+	background-color: lightgray;
+	display: block;
+}
+
+#art4 {
+	position: relative;
+	width: 48.6842%; 	 
+	float: right;
+	background-color: lightgray;
+	display: block;
+}
+
+}
+
+
+/*Início do layout para desktop*/
+@media only screen and (min-width: 760px) {
+
+#principal {
+	position: relative;
+	max-width: 1200px;
+	margin: auto;
+}
+
+#container {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+#foto {
+	height: 350px;
+}
+#foto img {
+	height: 350px;
+}
+
+
+#art1 {
+	position: relative;
+	width: 22.5%; 
+	float: left;
+	background-color: lightgray;
+	display: block;
+}
+#art1 img {
+	width: 100%;
+}
+
+
+#art2 {
+	position: relative;
+	width: 22.5%; 	 
+	float: left;
+	background-color: lightgray;
+	display: block;
+	margin-left: 3.3333%;
+	
+}
+#art2 img {
+	width: 100%;
+}
+
+#art3 {
+	position: relative;
+	width: 22.5%; 
+	float: left;
+	background-color: lightgray;
+	display: block;
+	clear: none;
+	margin-left: 3.3333%;
+}
+
+#art4 {
+	position: relative;
+	width: 22.5%; 	 
+	float: right;
+	background-color: lightgray;
+	display: block;
+	clear: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
